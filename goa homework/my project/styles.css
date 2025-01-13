@@ -1,0 +1,223 @@
+* {box-sizing: border-box;
+    margin: auto;}
+    .box{
+        width: 1440px;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    .water_age{
+        margin-left: 300px;
+    }
+    .header{
+        background-color: orangered;
+        padding: 60px 120px;
+        display: flex;
+        align-items: center;
+        gap: 300px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    a{
+        cursor: pointer;
+    }
+    .item:hover{
+    border: 1px solid blue;
+    }
+    .h1{
+        font-size: 35px;
+    }
+    .img_button{
+        padding: 7px;
+        width: 60px;
+        height: 60px;
+    }
+    .null{
+      margin-left: 18px;
+      color: red;
+      font-size: 15px;
+    }
+    .fa-cart-plus{
+        font-size: 22px;
+    }
+    .section{
+        display: flex;
+        gap: 100px;
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+    .card_img{
+        width: 250px;
+        height: 250px;
+    }
+    .price_div{
+        display: flex;
+        margin-top: 20px;
+        padding-left: 30px;
+        gap: 20px;
+    }
+    .dark_h{
+        margin-left: 340px;
+        margin-top: 40px;
+    }
+    .dark_mode{
+        margin-left: 340px;
+        margin-bottom: 40px;
+        margin-top: 5px;
+    }
+    .dark-mode {
+        background-color: #000;
+        color: #fff; 
+    }
+    .figcaption{
+    height: 100px;
+    margin: auto;
+    }
+    .input_section{
+        margin-left: 300px;
+        margin-top: 7px;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    .age_labbel{
+        margin-left: 350px;
+        margin-top: 40px;
+    }
+    
+    .slider {
+        margin-top: 300px;
+        height: 350px;
+     width: 350px;
+     position: relative;
+     margin: auto;
+    }
+    .mySlides {
+     display: none;
+     width: 350px;
+     height: 350px;
+     padding: 50px;
+     box-sizing: border-box;
+    }
+    .prev-next {
+     display: flex;
+     justify-content: space-between;
+     position: absolute;
+     width: 100%;
+     bottom: 50px;
+    }
+    .prev, .next {
+     cursor: pointer;
+     background: rgba(0,0,0,0.8);
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     padding: 16px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+    }
+    .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.5);
+    }
+    
+    
+    
+    .burger-menu {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .line {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 4px 0;
+        transition: 0.3s;
+        margin-left: 300px;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 120px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        display: none;
+      margin-top: 80px;
+        margin-left: 500px;
+    }
+    .nav_ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        color: white;
+        text-align: center;
+        display: block;
+    }
+    .nav-menu ul li a {
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    .nav-menu ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .momateba,
+    .dakleba{
+      padding: 2px;
+      font-size: 20px; 
+    height: 35px;  
+    width: 30px;   
+    color: crimson;
+    background-color: aqua;
+    border:1px solid black;
+    cursor: pointer;
+    }
+    .momateba{
+    margin-left: 40px;
+    margin-right: 10px;
+    }
+    
+    .clock {
+        display: flex;
+        font-size: 34px;
+        font-weight: bold;
+      }
+    
+      .copied{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .limitedTextArea{
+        resize: none;
+        height: 100px;
+        width: 200px;
+        margin-left: 200px;
+      }
+      .testTextArea{
+        display: inline-flex;
+        width: 200px;
+        background: none;
+        border: 1px solid #222;
+        outline: none;
+        margin-bottom: 50px;
+      }
+    .products{
+        display: flex;
+        gap: 50px;
+    }
+    .classimg{
+        width: 300px;
+        height: 250px;
+    }
